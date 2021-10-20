@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgb(100, 175, 25), rgb(100, 255, 0));
+    background: radial-gradient(red, yellow, green), #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,65 +17,227 @@ body {
 .clock {
     width: 300px;
     height: 300px;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(134, 83, 83, .9);
     border-radius: 50%;
     border: 2px solid #000;
     position: relative;
 }
 
 .clock .number {
+    color: rgba(255, 255, 255, .8);
     --rotation: 0;
     position: absolute;
     width: 100%;
-    /* background-color:aqua; */
     height: 100%;
     text-align: center;
     font-size: 1.5rem;
     transform: rotate(var(--rotation));
 }
 
+.rolexNyanyex {
+    color: rgba(255, 255, 0, 1.0);
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 700;
+    font-family: cursive, fantasy, sans-serif;
+}
+
 .clock .number1 {
-    --rotation: 30deg;
+    /* --rotation: 30deg; */
+    -ms-transform: rotate(30deg);
+    /* IE 9 */
+    -webkit-transform: rotate(30deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+.clock .numberOne {
+    /* --rotation: -30deg; */
+    -ms-transform: rotate(-30deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-30deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-30deg);
 }
 
 .clock .number2 {
-    --rotation: 60deg;
+    /* --rotation: 60deg; */
+    -ms-transform: rotate(60deg);
+    /* IE 9 */
+    -webkit-transform: rotate(60deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+}
+
+.clock .numberTwo {
+    /* --rotation: -60deg; */
+    -ms-transform: rotate(-60deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-60deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-60deg);
 }
 
 .clock .number3 {
-    --rotation: 90deg;
+    /* --rotation: 90deg; */
+    -ms-transform: rotate(90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.clock .numberThree {
+    /* --rotation: -90deg; */
+    -ms-transform: rotate(-90deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-90deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
 }
 
 .clock .number4 {
-    --rotation: 120deg;
+    /* --rotation: 120deg; */
+    -ms-transform: rotate(120deg);
+    /* IE 9 */
+    -webkit-transform: rotate(120deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(120deg);
+}
+
+.clock .numberFour {
+    /* --rotation: -120deg; */
+    -ms-transform: rotate(-120deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-120deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-120deg);
 }
 
 .clock .number5 {
-    --rotation: 150deg;
+    /* --rotation: 150deg; */
+    -ms-transform: rotate(150deg);
+    /* IE 9 */
+    -webkit-transform: rotate(150deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(150deg);
+}
+
+.clock .numberFive {
+    /* --rotation: -150deg; */
+    -ms-transform: rotate(-150deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-150deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-150deg);
 }
 
 .clock .number6 {
-    --rotation: 180deg;
+    /* --rotation: 180deg; */
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+.clock .numberSix {
+    /* --rotation: -180deg; */
+    -ms-transform: rotate(-180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-180deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-180deg);
 }
 
 .clock .number7 {
-    --rotation: 210deg;
+    /* --rotation: 210deg; */
+    -ms-transform: rotate(210deg);
+    /* IE 9 */
+    -webkit-transform: rotate(210deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(210deg);
+}
+
+.clock .numberSeven {
+    /* --rotation: -210deg; */
+    -ms-transform: rotate(-210deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-210deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-210deg);
 }
 
 .clock .number8 {
-    --rotation: 240deg;
+    /* --rotation: 240deg; */
+    -ms-transform: rotate(240deg);
+    /* IE 9 */
+    -webkit-transform: rotate(240deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(240deg);
+}
+
+.clock .numberEight {
+    /* --rotation: -240deg; */
+    -ms-transform: rotate(-240deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-240deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-240deg);
 }
 
 .clock .number9 {
-    --rotation: 270deg;
+    /* --rotation: 270deg; */
+    -ms-transform: rotate(270deg);
+    /* IE 9 */
+    -webkit-transform: rotate(270deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+
+.clock .numberNine {
+    /* --rotation: -270deg; */
+    -ms-transform: rotate(-270deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-270deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-270deg);
 }
 
 .clock .number10 {
-    --rotation: 300deg;
+    /* --rotation: 300deg; */
+    -ms-transform: rotate(300deg);
+    /* IE 9 */
+    -webkit-transform: rotate(300deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(300deg);
+}
+
+.clock .numberTen {
+    /* --rotation: -300deg; */
+    -ms-transform: rotate(-300deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-300deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-300deg);
 }
 
 .clock .number11 {
-    --rotation: 330deg;
+    /* --rotation: 330deg; */
+    -ms-transform: rotate(330deg);
+    /* IE 9 */
+    -webkit-transform: rotate(330deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(330deg);
+}
+
+.clock .numberEleven {
+    /* --rotation: -330deg; */
+    -ms-transform: rotate(-330deg);
+    /* IE 9 */
+    -webkit-transform: rotate(-330deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(-330deg);
 }
 
 .clock .hand {
